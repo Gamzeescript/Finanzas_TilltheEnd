@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <?php require 'layout/header.php'; ?>
     <body class="sb-nav-fixed">
-    <?php require 'layout/navbar.php'; ?>
+        <?php require 'layout/navbar.php'; ?>
         <div id="layoutSidenav">
             <?php require 'layout/sidenav.php'; ?>
             <div id="layoutSidenav_content">
@@ -52,7 +52,7 @@
                                     <div class="icon">
                                         <i class="fa-solid fa-money-bill-transfer" aria-hidden="true"></i>
                                     </div>
-                                    <a href="balance.html" class="card-box-footer">Mostrar Balance <i class="fa fa-arrow-circle-right"></i></a>
+                                    <a href="balance_controller.php" class="card-box-footer">Mostrar Balance <i class="fa fa-arrow-circle-right"></i></a>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-6">
@@ -64,7 +64,7 @@
                                     <div class="icon">
                                         <i class="fa-regular fa-square-caret-right" aria-hidden="true"></i>
                                     </div>
-                                    <a href="entradas.html" class="card-box-footer">Ver Más <i class="fa fa-arrow-circle-right"></i></a>
+                                    <a href="entrada_controller.php" class="card-box-footer">Ver Más <i class="fa fa-arrow-circle-right"></i></a>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-6">
@@ -76,7 +76,7 @@
                                     <div class="icon">
                                         <i class="fa-regular fa-square-caret-left" aria-hidden="true"></i>
                                     </div>
-                                    <a href="salidas.html" class="card-box-footer">Ver Más <i class="fa fa-arrow-circle-right"></i></a>
+                                    <a href="salida_controller.php" class="card-box-footer">Ver Más <i class="fa fa-arrow-circle-right"></i></a>
                                 </div>
                             </div>
                         </div>
